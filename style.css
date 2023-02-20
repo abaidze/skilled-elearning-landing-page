@@ -1,0 +1,381 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.head-center {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.budget-container{
+    display:flex;
+    flex-direction:column;
+}
+main {
+    padding: 16px;
+    
+}
+footer {
+    padding: 16px;
+    background: #13183F;
+    height:120px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.budget{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+.card-container{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+}
+.card-header {
+    max-width: 340px;
+    height: 120px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    background-color: #FFFFFF;
+    max-width: 340px;
+    border-radius: 10px;
+    padding-bottom: 48px;
+    margin-top: 40px;
+    padding: 16px;
+}
+.card-text-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.course-images{
+    
+    margin-top:-30px;
+}
+.mobile-photo{
+    padding-top:46px;
+    max-width:375px;
+    display:flex;
+    justify-content:center;
+}
+.tablet-photo{
+    display:none;
+}
+.skilledStyle {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #13183F;
+}
+.buttonStyle {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    border:none;
+    height:48px;
+    width:140px;
+    color: #FFFFFF;
+    background: #13183F;
+    border-radius: 28px;
+    
+}
+.headingStyle {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #13183F;
+}
+.articleStyle {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+}
+.button2Style {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    Width: 167px;
+    Height :56px;
+    border:none;
+}
+
+.cardStyle {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 26px;
+    padding-top: 26px;
+    font-style: normal;
+    padding: 28px;
+    line-height: 28px;
+}
+.coursesStyle {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183F;
+}
+.getStarted {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    background-color: #FFFFFF;
+    border: none;
+    display:flex;
+    
+   
+}
+.footerSkilled {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.footerBtn {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    width:140px;
+    height:48px;
+    border:none;
+    
+}
+.footer-container {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+/*tablet version*/
+@media screen and (min-width:768px) {
+    body {
+        background: url("./image-hero-tablet.png");
+        background-size: 640px 640px;
+        background-position: top -75px right -280px;
+        background-repeat: no-repeat;
+    }
+    .budget-container {
+        width: 100%;
+        flex-direction: row;
+        justify-content: unset;
+        margin-top: 70px;
+        padding-left: 23px;
+    }
+    .top {
+        width: 100%;
+        padding-left: 39px;
+        padding-right: 39px;
+        padding-top: 16px;
+    }
+    header {
+        width: 100%;
+    }
+
+    .head-center {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .mobile-photo {
+        display: none;
+    }
+
+    .tablet-photo {
+        display: none;
+        transform:translate(25%,-100px);
+    }
+    .budget{
+        
+        flex-basis:50%;
+    }
+    .picture-container{
+        display:none;
+    }
+    .card-container {
+        margin-top: 120px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 11px;
+    }
+    .card-header {
+        height: 259px;
+        border-radius: 10px;
+        margin-top: 27px;
+    }
+    .cardStyle {
+        display: flex;
+        padding-bottom: 120px;
+    }
+    footer{
+        width:100%;
+    }
+    .footer-container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+/*desktop version*/
+@media screen and (min-width: 1024px) {
+    body {
+        background-image: url("./image-hero-desktop@2x.png");
+        background-size: 800px;
+        background-position: top -120px right -200px;
+        background-repeat: no-repeat;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .head-center {
+        width: 1110px;
+    }
+
+    .top {
+        padding-top: 100px;
+        display: flex;
+        max-width: 1110px;
+    }
+
+    .budget-container {
+        margin-top: 120px;
+        max-width: 1110px;
+    }
+
+
+    .card-container {
+        margin-top: 80px;
+        gap: 15px;
+        max-width: 1110px;
+    }
+
+
+    footer {
+        width: 100%;
+    }
+
+    .footer-container {
+        max-width: 1110px;
+    }
+
+    .card{
+        height: 346px;
+        display: flex;
+        align-items: baseline;
+        gap: 30px;
+        flex-direction: column;
+        padding-left: 32px;
+    }
+
+    .card-header {
+        height: 359px;
+        padding-top: px;
+    }
+
+    .cardStyle {
+        line-height: 40px;
+        font-size: 32px;
+    }
+}
