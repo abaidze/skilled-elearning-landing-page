@@ -330,7 +330,7 @@ footer {
     }
 
     .head-center {
-        width: 1110px;
+        min-width:1110px;
     }
 
     .top {
